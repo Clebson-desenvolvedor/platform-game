@@ -34,6 +34,8 @@ class Play extends Phaser.Scene {
     createPlayer() {
         return new Player(this, 100, 250);
     }
+
+    
 }
 
 export default Play;
